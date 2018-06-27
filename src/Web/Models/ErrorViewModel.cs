@@ -6,6 +6,8 @@ namespace Web.Models
     {
         public string RequestId { get; set; }
 
+        public bool IsSuccess { get; set; }
+
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
