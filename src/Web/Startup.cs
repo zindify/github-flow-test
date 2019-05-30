@@ -14,6 +14,8 @@ namespace Web
 {
     public class Startup
     {
+        // this is a comment by Elena
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
